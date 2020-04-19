@@ -7,7 +7,7 @@ dependencies {
     api 'com.jsoniter:jsoniter:0.9.19'
     api project(':annotation')
 //    TODO 修改为相对路径
-    implementation files("/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/lib/tools.jar")
+    //implementation files("..libs/tools.jar")
 }
 
 sourceCompatibility = "7"
